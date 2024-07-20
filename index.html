@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dado para o aniversário de samuel</title>
+  <!--LINK FONTES GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--ROBOTO CONDENSED-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--LINK DO CSS-->
+    <link rel="stylesheet" href="samuka.css">
+</head>
+
+<body>
+  <div style="display: block !important;">
+    <h1 id="samukatitle">FELIZ ANIVERSARIO SAMUKA!!!!!!!!!!!!</h1>
+    <img src="samuka.png" alt="">
+  </div>
+  <br><br>
+
+  <div>
+    <label class="samukadice" for="input">Quantos lados tem o dado da vez?</label>
+    <input class="samukadice" type="number" id="samukadice">
+    <button id="samukaroll">ROLETAR</button>
+  </div>
+
+  <div id="finalresult">
+    <h2 id="samukaresult">RESULTADO:</h2>
+    <input type="text" id="result" disabled>
+  </div>
+  <audio src="Smash Mouth - All Star.mp3" id="samukaaudio"></audio>
+  <script src="samuka.js"></script>
+</body>
+
+</html>

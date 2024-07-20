@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'minecraft regular';
+  src: url('Minecrafter.Reg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'minecraft alternative';
+  src: url('Minecrafter.Alt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#samukatitle {
+  font-family: "minecraft alternative", sans-serif;
+  font-size: 50px;
+}
+
+.samukadice {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: 18px;
+}
+
+#samukadice {
+  margin: 0% 1% 0% 1%;
+  padding: 8px 5px 8px 5px;
+  border: 0.5px solid rgba(128, 128, 128, 0.384);
+  outline: none;
+  border-radius: 8px;
+}
+
+#samukaroll {
+  background: 0.5px solid rgba(128, 128, 128, 0.384);
+  border-radius: 8px;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#finalresult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#samukaresult {
+  font-family: "minecraft regular";
+  font-size: 32px;
+}
+
+#result {
+  width: 50px;
+  border: none;
+  padding: 30px;
+  outline: none;
+  background: none;
+  font-size: 24px;
+}
